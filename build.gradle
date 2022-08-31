@@ -87,3 +87,8 @@ configurations {
     }
     querydsl.extendsFrom compileClasspath
 }
+
+//배포시 빌드 설정(깃 액션 시 필수)
+jar {
+    enabled = false
+}
