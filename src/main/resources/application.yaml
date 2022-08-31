@@ -1,0 +1,2 @@
+jwt:
+  secret-key: jwt_secret_!@#$%
